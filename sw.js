@@ -1,6 +1,6 @@
 // Shanghai Tour 통합 Service Worker (토·일 공용)
 // scope: sw.js가 놓인 폴더 (배포 경로에 무관)
-const CACHE_VERSION = 'shanghai-tour-v8';
+const CACHE_VERSION = 'shanghai-tour-v11';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -14,15 +14,12 @@ const CORE_ASSETS = [
   './course/sun/stops-data.js',
   // 정거장 사진 — 현지 회선이 느려도 뜨도록 설치 시점에 미리 받아 둔다
   './course/sat/images/01-hotel-century-avenue.jpg',
-  './course/sat/images/lujiazui-binjiang.jpg',
   './course/sat/images/02-nanjing-road.jpg',
   './course/sat/images/05-bund-promenade.jpg',
   './course/sat/images/07-grandmother.jpg',
-  './course/sat/images/08-huxinting.jpg',
   './course/sat/images/09-yu-garden.jpg',
   './course/sat/images/11-provisional-government.jpg',
   './course/sat/images/13-xintiandi.jpg',
-  './course/sat/images/15-tianzifang.jpg',
   './course/sat/images/16-longtimeago.jpg',
   './course/sat/images/17-wukang-mansion.jpg',
   './course/sat/images/19-bund-night.jpg',
