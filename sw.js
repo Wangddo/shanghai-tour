@@ -1,6 +1,6 @@
 // Shanghai Tour 통합 Service Worker (토·일 공용)
 // scope: sw.js가 놓인 폴더 (배포 경로에 무관)
-const CACHE_VERSION = 'shanghai-tour-v11';
+const CACHE_VERSION = 'shanghai-tour-v12';
 const CORE_ASSETS = [
   './',
   './index.html',
